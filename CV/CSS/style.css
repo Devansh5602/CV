@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(109, 138, 138);
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    width: 15%;
+}
+img{
+    height: 150px;
+}
+h1{
+    color: brown;
+}
+h3{
+    color: rgb(28, 20, 145);
+}
