@@ -3,8 +3,8 @@ body {
 }
 
 #title {
-    background-color: #ff4c68;
-    color: white;
+    background-color: #db364f;
+    color: aliceblue;
 }
 
 .container-fluid {
@@ -58,8 +58,10 @@ p {
     font-family: "Ubuntu";
     font-size: 2.25rem;
     font-weight: bold;
-    background-color: #cc4156;
-    border-radius: 25%;
+    color: black;
+}
+.navbar-brand:hover{
+    color: aliceblue;
 }
 
 #features {
@@ -77,7 +79,7 @@ p {
     margin-bottom: 1rem;
 }
 
-.feature-image:hover {
+.fas:hover {
     color: #ff4c68;
 }
 
