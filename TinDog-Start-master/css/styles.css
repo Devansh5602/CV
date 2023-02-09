@@ -1,44 +1,140 @@
-body{
+body {
     font-family: "Montserrat";
 }
-#title{
+
+#title {
     background-color: #ff4c68;
     color: white;
 }
-.container-fluid{
+
+.container-fluid {
     padding: 3% 15%;
 }
-h1{
+
+h1 {
     font-family: "Montserrat-Black";
     font-size: 4rem;
     line-height: 1.5;
 }
-.navbar{
+
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.navbar {
     padding-bottom: 0 0 4.5rem;
 }
-.title-image{
+
+.title-image {
     width: 50%;
     transform: rotate(25deg);
 }
-.downloadbutton{
+
+.downloadbutton {
     margin: 5% 3% 5% 0%;
 }
-.nav-item{
+
+.nav-item {
     padding-left: 18px;
     padding-right: 18px;
 }
-.nav-link{
+
+.nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
 }
-.navbar-brand{
+
+.navbar-brand {
     font-family: "Ubuntu";
     font-size: 2.25rem;
-    font-weight: bold; 
+    font-weight: bold;
+    background-color: #cc4156;
+    border-radius: 25%;
 }
-.feature{
-    font-family: Montserrat bold;
+
+#features {
+    padding: 7% 15%;
 }
-.feature-image{
+
+.feature-box {
+    text-align: center;
+    padding: 6%;
+    line-height: 1.5rem;
+}
+
+.fas {
     color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-image:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.card-title {
+    padding-bottom: 5%;
+}
+
+.card-title:hover {
+    font-weight: bold;
+}
+
+.lead {
+    padding: 1% 7%;
+    font-size: small;
+    font-weight: normal;
+}
+
+.lead:hover {
+    font-size: large;
+    font-weight: bold;
+}
+#cta{
+    background-color: #d6586b;
+    text-align: center;
+    color: aliceblue;
+}
+#footer{
+    background-color: black;
+    text-align: center;
+}
+.downloadbutton1{
+    margin: 1% 2% 3% 2%;
 }
