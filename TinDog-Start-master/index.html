@@ -23,10 +23,11 @@
 
 <body>
   <section id="title">
-    <div class="container-fluid">
+    <div class="container-fluid colored-section">
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href=""> <i class="fa-sharp fa-regular fa-j fa-2x"> </i> <i class="fa-sharp fa-regular fa-d fa-2x"></i> </a>
+        <a class="navbar-brand" href=""> <i class="fa-sharp fa-regular fa-j fa-2x"> </i> <i
+            class="fa-sharp fa-regular fa-d fa-2x"></i> </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
           aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,13 +35,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">CONTACT</a>
+              <a class="nav-link" href="#footer">CONTACT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">PRICING</a>
+              <a class="nav-link" href="#pricing">PRICING</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">DOWNLOAD</a>
+              <a class="nav-link" href="#cta">DOWNLOAD</a>
             </li>
           </ul>
         </div>
@@ -48,8 +49,8 @@
       <!-- Title -->
       <div class="row">
         <div class="col-lg-6">
-          <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg downloadbutton"><i class="fa-brands fa-apple"></i>
+          <h1 class="main-heading">Meet New and Interesting Dogs Nearby</h1>
+          <button type="button" class="btn btn-outline-dark btn-lg downloadbutton"><i class="fa-brands fa-apple"></i>
             Download</button>
           <button type="button" class="btn btn-outline-light btn-lg downloadbutton"><i
               class="fa-brands fa-google-play"></i> Download</button>
@@ -61,31 +62,31 @@
     </div>
   </section>
   <!-- Features -->
-  <section id="features">
+  <section id="features" class="white-section">
     <div class="row">
       <div class="feature-box col-lg-4">
         <i class="fas fa-solid fa-circle-check fa-4x"></i>
-        <h3>Easy to use</h3>
+        <h3 class="feature-text">Easy to use</h3>
         <p>So easy to use, even your dog could do it.</p>
       </div>
       <div class="feature-box col-lg-4">
         <i class="fas fa-sharp fa-solid fa-bullseye fa-4x"></i>
-        <h3>Elite Clientele</h3>
+        <h3 class="feature-text">Elite Clientele</h3>
         <p>We have all the dogs, the greatest dogs.</p>
       </div>
       <div class="feature-box col-lg-4">
         <i class="fas fa-solid fa-heart fa-4x"></i>
-        <h3>Guaranteed to work</h3>
+        <h3 class="feature-text">Guaranteed to work</h3>
         <p>Find the love of your dog's life or your money back.</p>
       </div>
     </div>
   </section>
   <!-- Testimonials -->
-  <section id="testimonials">
+  <section id="testimonials" class="colored-section">
     <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <h2>I no longer have to sniff other dogs for love, I've found the hottest Corgi on TinDog. Woof..</h2>
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for love, I've found the hottest Corgi on TinDog. Woof..</h2>
           <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
           <em>Pebbles, New York</em>
         </div>
@@ -115,14 +116,14 @@
     <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
   </section>
   <!-- Pricing -->
-  <section id="pricing" class="mt-5">
+  <section id="pricing" class="mt-5 white-section">
     <div class="container-lg">
       <div class="text-center">
-        <h2>A Plan for Every Dog's Needs</h2>
-        <p class="text-muted">Simple and affordable price plans for your and your dog</p>
+        <h2 class="price-heading">A Plan for Every Dog's Needs</h2>
+        <p class="text-muted pt-2 px-2">Simple and affordable price plans for your and your dog</p>
       </div>
-      <div class="row my-5 align-items-center justify-content-center g-5">
-        <div class="col-8 col-lg-4 col-xl-3">
+      <div class="row mt-2 mb-5 align-items-center justify-content-center g-5">
+        <div class="col-md-6 col-lg-4">
           <div class="card border-1">
             <div class="card-body text-center py-4">
               <h3 class="card-title">Chihuahua</h3>
@@ -135,7 +136,7 @@
             </div>
           </div>
         </div>
-        <div class="col-8 col-lg-4 col-xl-3">
+        <div class="col-md-6 col-lg-4">
           <div class="card border-1">
             <div class="card-body text-center py-4">
               <h3 class="card-title">Labrador</h3>
@@ -148,7 +149,7 @@
             </div>
           </div>
         </div>
-        <div class="col-8 col-lg-4 col-xl-3">
+        <div class="col-lg-4">
           <div class="card border-1">
             <div class="card-body text-center py-4">
               <h3 class="card-title">Mastiff</h3>
@@ -165,16 +166,20 @@
     </div>
   </section>
   <!-- Call to Action -->
-  <section id="cta">
-    <h3 class="pt-5">Find the True Love of Your Dog's Life Today</h3>
+  <section id="cta" class="colored-section">
+    <h3 class="cta-heading pt-4 px-3 mb-3">Find the True Love of Your Dog's Life Today</h3>
     <button type="button" class="btn btn-dark btn-lg downloadbutton1"><i class="fa-brands fa-apple"></i>
       Download</button>
-    <button type="button" class="btn btn-outline-light btn-lg downloadbutton1"><i
-        class="fa-brands fa-google-play"></i> Download</button>
+    <button type="button" class="btn btn-light btn-lg downloadbutton1"><i class="fa-brands fa-google-play"></i>
+      Download</button>
   </section>
   <!-- Footer -->
-  <footer id="footer">
-    <p class="mb-0">© Copyright TinDog</p>
+  <footer id="footer" class="white-section">
+      <i class="social-icon fa-brands fa-twitter"></i>
+      <i class="social-icon fa-brands fa-facebook"></i>
+      <i class="social-icon fa-brands fa-instagram"></i>
+      <i class="social-icon fa-solid fa-envelope"></i>
+    <p>© Copyright TinDog</p>
   </footer>
 </body>
 
