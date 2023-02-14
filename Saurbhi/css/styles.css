@@ -2,33 +2,83 @@ body {
     background-color: #ffffff;
     text-align: center;
 }
-#container-fluid{
-    padding: 5%;
+
+#container-fluid {
+    padding: 0 12%;
 }
+
+/* Navbar */
 .navbar {
     color: rgb(165, 25, 25);
     padding: 0% 3%;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .navbar-toggler {
     background-color: rgb(116, 24, 24);
 }
 
+.navbar-toggler-icon {
+    color: #ffffff;
+}
+
 .nav-link {
     color: black;
 }
 
+/* Contact */
+#contact {
+    position: fixed;
+    left: 0;
+}
+
+/* Carousel */
 #testimonials {
     background-color: #a5a0a0;
 }
 
-#testimonial-carousel {
-    padding: 11% 0 11%;
+.testimonial-inner {
+    padding: 0 8%;
 }
 
-.testimonial-inner{
-    width: 50%;
-}
 .testimonial-slide {
     color: #352816;
     text-align: left;
@@ -43,72 +93,230 @@ body {
     font-size: 3rem;
     line-height: 3rem
 }
-.heading{
+
+@media (max-width: 1035px) {
+    .testimonial-slide {
+        text-align: center;
+    }
+
+    .testimonial-text {
+        text-align: center;
+        width: 100%;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+}
+
+/* Headings */
+.heading {
     font-family: 'Dancing Script', cursive;
     color: #a73335;
     font-size: 3.25rem;
-    padding: 8%;
+    padding: 10px;
 }
-.our-brand-logo{
-    width: 14%;
-}
-@media (max-width:992px){    
-    #experience{
-        text-align: center;
-    }
-    .experience-text{
-        text-align: center;
-        padding: 5%;
 
-        font-size: 1rem; 
+@media (max-width:1165px) {
+    .heading {
+        font-size: 2rem;
     }
 }
-#experience{
-    padding: 2.5% 4%;
+
+/* Our Brands */
+#ourbrands {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 60px 0px 60px 0px;
+}
+
+.our-brand-logo {
+    width: 19%;
+    padding: 10px;
+}
+
+/* Experience */
+#experience {
     color: #933638;
 }
-.experience-heading{
-    height: 10rem;
-    font-size: 9rem;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    margin-bottom: 0%;
-    font-weight: 600;
-}
-.experience-subheading{
-    font-size: 4.5rem;
-    text-align: center;
-    font-weight: 500;
-    font-family: 'Dancing Script', cursive;
-    padding: 0 5%;
-    line-height: 5rem;
-}
-.experience-text{
-    text-align: left;
-    padding-top: 5%;
-    font-size: 1rem; 
-}
-.container-lg{
-    text-align: left;
-}
-.lead{
-    font-size: 1rem;
-}
-#products-carousel {
-    padding: 5% 0 5%;
-}
-#saveyourtime{
-    padding: 0 10%;
-}
-.save-text{
-    text-align: left;
-    padding: 12% 0 12% 0;    
+
+.experience-box1 {
+    padding: 8% 0;
 }
 
-.downloadbutton1{
+.experience-box2 {
+    padding: 10px;
+}
+
+.experience-heading {
+    font-family: 'Poppins' !important;
+    font-size: 150px !important;
+    line-height: 0px !important;
+    font-weight: 600;
+}
+
+.experience-subheading {
+    margin: 4rem auto auto;
+    font-size: 75px;
+    line-height: 80px;
+    font-family: "Dancing Script", Sans-serif;
+    font-weight: 100 !important;
+}
+
+.experience-text {
+    text-align: left;
+    padding: 5% 0 3% 0;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 2rem;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-family: 'poppins';
+    font-weight: normal;
+}
+
+.experience-card {
+    float: left;
+    padding-bottom: 70%;
+}
+
+@media (max-width:992px) {
+    #experience {
+        text-align: center;
+    }
+
+    .experience-text {
+        text-align: center;
+        padding: 5%;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:1746px) and (min-width: 975px){
+    #experience {
+        text-align: center;
+    }
+    .experience-heading{
+        font-size: 100px;
+    }
+    .experience-subheading{
+        font-size: 50px;
+    }
+}
+
+.card-text {
+    text-align: left;
+}
+
+.lead {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+/* Products */
+#products {
+    padding: 30px 0;
+}
+
+#products-carousel {
+    padding: 10px;
+}
+
+.product-img {
+    width: 20%;
+}
+
+/* Save you time */
+.save-text {
+    text-align: left;
+    padding: 12% 0 12% 0;
+}
+
+.save-image {
+    vertical-align: middle;
+}
+
+.downloadbutton1 {
     color: #933638;
     font-weight: bold;
 }
-.needhelp{
+
+/* Need Help */
+#needhelp {
     color: #933638;
+    padding: 60px;
+}
+
+.needhelp {
+    text-align: left;
+}
+
+.form {
+    margin: 6%;
+}
+
+.quickinquiry {
+    margin: 3%;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input[type=email] {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input[name=message] {
+    width: 65%;
+    padding: 7% 0;
+    margin: 2% 0;
+}
+
+.message {
+    text-align: left;
+}
+
+.required {
+    color: #933638;
+}
+
+/* Location */
+.location-img {
+    padding: 10px;
+    text-align: center;
+}
+
+#location {
+    padding: 30px;
+}
+
+.location-img1 {
+    padding: 4%;
+    font-family: 'Poppins';
+    font-weight: 200;
+    color: #933638;
+}
+
+.address-img {
+    float: left;
+    margin: 0 3% 0 2%;
+}
+
+.address-text {
+    padding: 2% 3% 3% 5%;
+    text-align: left;
+}
+
+.address-subtext {
+    color: #933638;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+/* Footer */
+footer {
+    padding: 43px 0 23px 0;
 }

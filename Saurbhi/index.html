@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>Saurbhi</title>
+    <!-- FontAwesome or Icon -->
+    <script src="https://kit.fontawesome.com/1e1f992a82.js" crossorigin="anonymous"></script>
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,68 +24,144 @@
 <body>
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-danger">
-        <img src="images/Saurbhi_logo.png" alt="Saurbhi_logo">
+        <img src="images/Saurbhi_logo.png" alt="Saurbhi_logo" style="width: 122px;">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon" style="height: 15px; width: 10px;"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav">
-                <li class="nav-item">
+            <ul class="navbar-nav ms-auto">
+                <a class="nav-item">
                     <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
+                </a>
+                <a class="nav-item">
                     <a class="nav-link" href="#aboutus">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#products">Products</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#ourbrands">Our Brands</a>
-                </li>
-                <li class="nav-item">
+                </a>
+                <a class="nav-item">
+                    <div class="nav-link dropdown">
+                        <button class="dropbtn">Products</button>
+                        <div class="sub-menu dropdown-content">
+                            <a href="">Flours</a>
+                            <a href="">Frozen Ready To Eat</a>
+                            <a href="">Pickle</a>
+                            <a href="">Whole Spices</a>
+                            <a href="">Frozen Vegetables &amp; Fruits</a>
+                            <a href="">Chutneys &amp; Sauces</a>
+                            <a href="">Herbs Powder Spices</a>
+                            <a href="">Dal &amp; Pulses</a>
+                            <a href="">Rice</a>
+                            <a href="">Blended Spices</a>
+                            <a href="">Mukhwas &amp; Confectionery</a>
+                            <a href="">Shaan E Punjab</a>
+                            <a href="">General Groceries</a>
+                            <a href="">Papad &amp; Fryums</a>
+                            <a href="">Oil &amp; Ghee</a>
+                            <a href="">Jaggery</a>
+                            <a href="">Bakery</a>
+                            <a href="">Mango Pulp</a>
+                            <a href="">Sweets</a>
+                            <a href="">Khakhra &amp; Dry Bhakhri</a>
+                            <a href="">Shreekhand</a>
+                            <a href="">Namkeen</a>
+                        </div>
+                    </div>
+                </a>
+                <a class="nav-item">
+                    <div class="nav-link dropdown">
+                        <button class="dropbtn">Our Brands</button>
+                        <div class="sub-menu dropdown-content">
+                            <a href="">Saurbhi</a>
+                            <a href="">Shaan-E-Punjab</a>
+                            <a href="">Chatzpatz</a>
+                            <a href="">Basanti</a>
+                            <a href="">Real Choice</a>
+                        </div>
+                    </div>
+                </a>
+                <a class="nav-item">
                     <a class="nav-link" href="#ourprocess">Our Process</a>
-                </li>
-                <li class="nav-item">
+                </a>
+                <a class="nav-item">
                     <a class="nav-link" href="#contactus">Contact Us</a>
-                </li>
-                <li class="nav-item">
+                </a>
+                <a class="nav-item">
                     <a class="nav-link" href="#news&events">News & Events</a>
-                </li>
-                <li class="nav-item">
+                </a>
+                <a class="nav-item">
                     <a class="nav-link" href="#ourstores">Our Stores</a>
-                </li>
+                </a>
                 <button type="button" class="btn btn-warning btn-n downloadbutton rounded-pill">LOGIN</button>
             </ul>
         </div>
     </nav>
+    <!-- Contact -->
+    <section id="contact">
+        <button type="button" class="btn btn-primary btn-n downloadbutton rounded"><i
+                class="social-icon fa-brands fa-facebook"></i></button>
+        <button type="button" class="btn btn-n downloadbutton rounded" style="background-color: fuchsia;"><i
+                class="social-icon fa-brands fa-instagram"></i></button>
+        <button type="button" class="btn btn-warning btn-n downloadbutton rounded"> <i
+                class="social-icon fa-solid fa-envelope"></i></button>
+        <button type="button" class="btn btn-n downloadbutton rounded" style="background-color: #661e1f;"><i
+                class="fa-solid fa-phone"></i></button>
+    </section>
     <!-- Carousel -->
-    <section id="testimonials" class="colored-section">
+    <section id="testimonials">
         <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
             <div class="carousel-inner testimonial-inner">
-                <div class="carousel-item active testimonial-slide">
-                    <h2 class="testimonial-text">MAKING MEALS MORE FLOVORFUL</h2>
-                    <p>Indian Spices for flovorful indian meal</p>
+                <div class="carousel-item active testimonial-slide row">
+                    <div class="col-lg-6">
+                        <h2 class="testimonial-text">MAKING MEALS MORE FLOVORFUL</h2>
+                        <p>Indian Spices for flovorful indian meal</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="images/Blended-Spices.png" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item testimonial-slide row">
+                    <div class="col-lg-6">
+                        <h2 class="testimonial-text">READY TO COOK FROZEN VEGETABLES</h2>
+                        <p>Make marvelous meals with froze vegetables</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="images/Frozen-Vegetables-Fruits.png" alt="">
+                    </div>
                 </div>
                 <div class="carousel-item testimonial-slide">
-                    <h2 class="testimonial-text">READY TO COOK FROZEN VEGETABLES</h2>
-                    <p>Make marvelous meals with froze vegetables</p>
+                    <div class="col-lg-6">
+                        <h2 class="testimonial-text">THE TASTE THAT MATTERS</h2>
+                        <p>Authentic unforgettable taste of India</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="images/Resize-image.png" alt="">
+                    </div>
                 </div>
                 <div class="carousel-item testimonial-slide">
-                    <h2 class="testimonial-text">THE TASTE THAT MATTERS</h2>
-                    <p>Authentic unforgettable taste of India</p>
+                    <div class="col-lg-6">
+                        <h2 class="testimonial-text">READY TO "HEAT" & EAT BREADS</h2>
+                        <p>For those love Ethnic Indian food</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="images/General-Groceries-300x295.png" alt="">
+                    </div>
                 </div>
                 <div class="carousel-item testimonial-slide">
-                    <h2 class="testimonial-text">READY TO "HEAT" & EAT BREADS</h2>
-                    <p>For those love Ethnic Indian food</p>
+                    <div class="col-lg-6">
+                        <h2 class="testimonial-text">TRADITIONAL INDIAN MOUTH FRESHNERS</h2>
+                        <p>The best way to end your meal with</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="images/Mukhwas_cat.png" alt="">
+                    </div>
                 </div>
                 <div class="carousel-item testimonial-slide">
-                    <h2 class="testimonial-text">TRADITIONAL INDIAN MOUTH FRESHNERS</h2>
-                    <p>The best way to end your meal with</p>
-                </div>
-                <div class="carousel-item testimonial-slide">
-                    <h2 class="testimonial-text">A NUTRITIOUS PUNCH OF SHAAN-E-PUNJAAB</h2>
-                    <p>Add a nutritious punch to your meal with Punjabi delights</p>
+                    <div class="col-lg-6">
+                        <h2 class="testimonial-text">A NUTRITIOUS PUNCH OF SHAAN-E-PUNJAAB</h2>
+                        <p>Add a nutritious punch to your meal with Punjabi delights</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="images/Shaan-e-punjab_cat.png" alt="">
+                    </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel"
@@ -98,242 +176,268 @@
             </button>
         </div>
     </section>
-    <!-- Our Brands -->
-    <section id="ourbrands">
-        <div>
-            <h2 class="heading">Our Brands</h2>
-        </div>
-        <div class="logos">
-            <img class="our-brand-logo col-lg-2" src="images/Saurbhi_logo.png" alt="Saurbhi-logo">
-            <img class="our-brand-logo col-lg-2" src="images/Real-Choice-Logo-600x423.jpg" alt="Real-choice-logo">
-            <img class="our-brand-logo col-lg-2" src="images/New_Chatzpatz-Logo-600x375.png" alt="chatzpatz-logo">
-            <img class="our-brand-logo col-lg-2" src="images/Shaan-e-punjab_logo-600x360.jpg" alt="Shaan-e-punjab-logo">
-            <img class="our-brand-logo col-lg-2" src="images/Basanti-Logo-Final-with-R-600x511.jpg" alt="Basanti-logo">
-        </div>
-    </section>
-    <!-- Experience -->
-    <section id="experience" class="row container-fluid">
-        <div class="col-lg-4">
-            <p class="experience-heading">15+</p>
-            <p class="experience-subheading">Years of Experience</p>
-        </div>
-        <div class="col-lg-8">
-            <p class="experience-text text-muted">Shivom Enterprise is a family run, innovative forward thinking company
-                based in
-                the heart of Sydney Western Suburb. We aim to offer the highest quality of Products & all possible range
-                and varieties of
-                branded products, at the most competitive price possible to all over Australia's retails Indian stores.
-            </p>
-            <div id="container-fluid" class="container-lg">
-                <div class="row align-items-center justify-content-center g-4">
-                    <div class="col-lg-4 col-md-4">
-                        <div class="card border-0">
-                            <div class="card-body py-4">
-                                <img src="images/Order_.png" alt="">
-                                <h4 class="card-title">ORDER 24/7</h4>
-                                <p class="lead card-subtitle text-muted">You can order 24 hours a day, 7 days a week by
-                                    dialing :</p>
-                                <p class="lead card-subtitle pt-2">+612 8206 2797</p>
+    <section id="container-fluid">
+        <!-- Our Brands -->
+        <section id="ourbrands">
+            <div>
+                <h2 class="heading">Our Brands</h2>
+            </div>
+            <div class="logos">
+                <img class="our-brand-logo col-lg-2" src="images/Saurbhi_logo.png" alt="Saurbhi-logo">
+                <img class="our-brand-logo col-lg-2" src="images/Real-Choice-Logo-600x423.jpg" alt="Real-choice-logo">
+                <img class="our-brand-logo col-lg-2" src="images/New_Chatzpatz-Logo-600x375.png" alt="chatzpatz-logo">
+                <img class="our-brand-logo col-lg-2" src="images/Shaan-e-punjab_logo-600x360.jpg"
+                    alt="Shaan-e-punjab-logo">
+                <img class="our-brand-logo col-lg-2" src="images/Basanti-Logo-Final-with-R-600x511.jpg"
+                    alt="Basanti-logo">
+            </div>
+        </section>
+        <!-- Experience -->
+        <section id="experience" class="row">
+            <div class="experience-box1 col-lg-4 col-md-12">
+                <p class="experience-heading">15+</p>
+                <p class="experience-subheading">Years of Experience</p>
+            </div>
+            <div class="experience-box2 col-lg-8 col-md-12">
+                <p class="experience-text text-muted">Shivom Enterprise is a family run, innovative forward thinking
+                    company
+                    based in
+                    the heart of Sydney Western Suburb. We aim to offer the highest quality of Products & all possible
+                    range
+                    and varieties of
+                    branded products, at the most competitive price possible to all over Australia's retails Indian
+                    stores.
+                </p>
+                <div class="container-lg">
+                    <div class="row align-items-center justify-content-center g-2">
+                        <div class="col-lg-4 col-md-4">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <img class="experience-card" src="images/Order_.png" alt="">
+                                    <div class="card-text">
+                                        <h5 class="card-title">ORDER 24/7</h5>
+                                        <p class="lead card-subtitle text-muted">You can order 24 hours a day, 7 days a
+                                            week by dialing :</p>
+                                        <p class="lead card-subtitle pt-2" style="font-weight: 550; font-size: larger;">
+                                            +612 8206 2797</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <img class="experience-card" src="images/Certification.png" alt="">
+                                    <div class="card-text">
+                                        <h5 class="card-title">CERTIFICATION</h5>
+                                        <p class="lead card-subtitle text-muted">Building trust by maintaining quality
+                                            standards
+                                            and
+                                            creating benchmarks of excellence</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <img class="experience-card" src="images/Promise_of_quality.png" alt="">
+                                    <div class="card-text">
+                                        <h5 class="card-title">PROMISE OF
+                                            QUALITY</h5>
+                                        <p class="lead card-subtitle text-muted">Building trust by maintaining quality
+                                            standards
+                                            and creating benchmarks of excellence</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="card border-0">
-                            <div class="card-body py-4">
-                                <h4 class="card-title"><img src="images/Certification.png" alt="">CERTIFICATION</h4>
-                                <p class="lead card-subtitle text-muted">Building trust by maintaining quality standards
-                                    and
-                                    creating benchmarks of excellence</p>
+                </div>
+            </div>
+        </section>
+        <!-- Products -->
+        <section id="products">
+            <div>
+                <h2 class="heading">Products</h2>
+            </div>
+            <div id="products-carousel" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active col-lg-3">
+                        <img class="product-img" src="images/Bakery_cat.png" alt="">
+                        <p>BAKERI</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/Blended-Spices.png" alt="">
+                        <p>BLENDED SPICES</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/Daal-Mung-Beans_Cat.png" alt="">
+                        <p>DAL & PULSES</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/Flours-3.png" alt="">
+                        <p>FLOURS</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/Resize-image.png" alt="">
+                        <p>FROZEN READY TO EAT</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/Frozen-Vegetables-Fruits.png" alt="">
+                        <p>FROZEN VEGETABLES & FRUITS</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/General-Groceries-300x295.png" alt="">
+                        <p>GENERAL GROCERIES</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/Herbs-Powder-Spices.png" alt="">
+                        <p>HERBS & POWDER SPICES</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/Khakhra-Dry-Bhakhri-1.png" alt="">
+                        <p>KHAKHRA & DRY BHAKHRI</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/Mango-Pulp_cat.png" alt="">
+                        <p>MANGO PULP</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/Mukhwas_cat.png" alt="">
+                        <p>MUKHWAS & CONFECTIONARY</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/Namkeen-1.png" alt="">
+                        <p>NAMKEEN</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/Oil.png" alt="">
+                        <p>OIL</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/Papad-and-Fryums_cat.png" alt="">
+                        <p>PAPAD & FRYUMS</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/Pickles_cat.png" alt="">
+                        <p>PICKELS</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/Rice_Cat.png" alt="">
+                        <p>RICE</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/Shaan-e-punjab_cat.png" alt="">
+                        <p>SHAAN-E-PUNJAAB</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/Sweets_cat.png" alt="">
+                        <p>SWEETS</p>
+                    </div>
+                    <div class="carousel-item col-lg-3">
+                        <img class="product-img" src="images/Whole_Spices_Edited.png" alt="">
+                        <p>WHOLE SPICES</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#products-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#products-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- Save Your Time -->
+        <section id="saveyourtime">
+            <div class="saveyourtime row">
+                <div class="save-text col-lg-6 col-md-6">
+                    <h2 class="heading">Save Your Time</h2>
+                    <p class="text-muted">Shop great products on our apps. Our apps are designed to make shopping for
+                        spices, milk product and
+                        snacks easier than ever.</p>
+                    <button type="button" class="btn btn-warning btn-n downloadbutton1 rounded-pill px-4">DOWNLOAD
+                        APP</button>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <img class="save-image" src="images/Device.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Need Help -->
+        <section id="needhelp">
+            <div class="row">
+                <div class="col-lg-4 needhelp">
+                    <h2 class="heading">Need Help?</h2>
+                    <p class="text-muted">We want to help yo in the best possible way.</p>
+                </div>
+                <div class="col-lg-8">
+                    <form action="" method="get" class="form">
+                        <div class="form text-muted row">
+                            <div class="col-lg-4 g-2">
+                                <label for="name"><span class="required">*</span></label>
+                                <input placeholder="Name" type="text" name="name" id="name" required>
+                            </div>
+                            <div class="col-lg-4 g-2">
+                                <label for="email"><span class="required">*</span></label>
+                                <input placeholder="Email" type="email" name="email" id="email" required>
+                            </div>
+                            <div class="col-lg-4 g-2">
+                                <label for="phone"><span class="required">*</span></label>
+                                <input placeholder="Phone no." type="text" name="phone" id="phone" required>
+                            </div>
+                            <div class="message">                                
+                                <label for="message"><span class="required">*</span></label>
+                                <input placeholder="Message" type="text" name="message" id="message" required>
+                                <button type="button" style="vertical-align: bottom;"
+                                    class="btn btn-warning btn-n downloadbutton1 rounded-pill px-4 quickinquiry">QUICK
+                                    INQUIRY</button>
                             </div>
                         </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Location -->
+        <section id="location" class="px-5" style="text-align: left;">
+            <div style="text-align: left;">
+                <h3 style=" font-family: 'Dancing Script', cursive; color: #933638;">Find Our Products Near You</h3>
+            </div>
+            <div style="text-align: right;">
+                <button type="button" class="btn btn-warning btn-n downloadbutton1 rounded-pill px-4">VIEW MORE
+                    STORES</button>
+            </div>
+            <div class="row">
+                <div class="location-img col-sm-6 col-md-6 col-lg-3">
+                    <div class="location-img1">
+                        <img src="images/Location_1.png" alt="">
+                        <p>Corporate Service Communication</p>
                     </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="card border-0">
-                            <div class="card-body py-4">
-                                <h4 class="card-title"><img src="images/Promise_of_quality.png" alt="">PROMISE OF
-                                    QUALITY</h4>
-                                <p class="lead card-subtitle text-muted">Building trust by maintaining quality standards
-                                    and creating benchmarks of excellence</p>
-                            </div>
-                        </div>
+                    <div class="location-img1">
+                        <img src="images/Location_2_original.png" alt="">
+                        <p>Sydney Airport</p>
+                    </div>
+                    <div class="location-img1">
+                        <img src="images/Location_3_original.png" alt="">
+                        <p>Goulburn River National Park</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-9 address">
+                    <img class="address-img rounded-circle" src="images/Background-copy-6.png" alt="">
+                    <div class="address-text">
+                        <p class="address-subtext">Corporate Service Communication</p>
+                        <p class="text-muted">12 Dransfield Ave, Mascot NSW 2020, Australia</p>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- Footer -->
+        <Footer>
+            <img src="images/Saurbhi_logo.png" alt="">
+            <p style="color: #933638;">Copyright © 2020. All Rights Reserved.</p>
+        </Footer>
     </section>
-    <!-- Products -->
-    <section id="products">
-        <div>
-            <h2 class="heading">Products</h2>
-        </div>
-        <div id="products-carousel" class="carousel slide" data-bs-ride="false">
-            <div class="carousel-inner">
-                <div class="carousel-item active col-lg-3">
-                    <img src="images/Bakery_cat.png" alt="">
-                    <p>BAKERI</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/Blended-Spices.png" alt="">
-                    <p>BLENDED SPICES</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/Daal-Mung-Beans_Cat.png" alt="">
-                    <p>DAL & PULSES</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/Flours-3.png" alt="">
-                    <p>FLOURS</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/Resize-image.png" alt="">
-                    <p>FROZEN READY TO EAT</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/Frozen-Vegetables-Fruits.png" alt="">
-                    <p>FROZEN VEGETABLES & FRUITS</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/General-Groceries-300x295.png" alt="">
-                    <p>GENERAL GROCERIES</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/Herbs-Powder-Spices.png" alt="">
-                    <p>HERBS & POWDER SPICES</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/Khakhra-Dry-Bhakhri-1.png" alt="">
-                    <p>KHAKHRA & DRY BHAKHRI</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/Mango-Pulp_cat.png" alt="">
-                    <p>MANGO PULP</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/Mukhwas_cat.png" alt="">
-                    <p>MUKHWAS & CONFECTIONARY</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/Namkeen-1.png" alt="">
-                    <p>NAMKEEN</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/Oil.png" alt="">
-                    <p>OIL</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/Papad-and-Fryums_cat.png" alt="">
-                    <p>PAPAD & FRYUMS</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/Pickles_cat.png" alt="">
-                    <p>PICKELS</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/Rice_Cat.png" alt="">
-                    <p>RICE</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/Shaan-e-punjab_cat.png" alt="">
-                    <p>SHAAN-E-PUNJAAB</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/Sweets_cat.png" alt="">
-                    <p>SWEETS</p>
-                </div>
-                <div class="carousel-item col-lg-3">
-                    <img src="images/Whole_Spices_Edited.png" alt="">
-                    <p>WHOLE SPICES</p>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#products-carousel"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#products-carousel"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </section>
-    <!-- Save Your Time -->
-    <section id="saveyourtime">
-        <div class="saveyourtime row">
-            <div class="save-text col-lg-6 col-md-6">
-                <h2 class="heading">Save Your Time</h2>
-                <p class="text-muted">Shop great products on our apps. Our apps are designed to make shopping for
-                    spices, milk product and
-                    snacks easier than ever.</p>
-                <button type="button" class="btn btn-warning btn-n downloadbutton1 rounded-pill px-4">DOWNLOAD
-                    APP</button>
-            </div>
-            <div class="save-image col-lg-6 col-md-6">
-                <img src="images/Device.png" alt="">
-            </div>
-        </div>
-    </section>
-    <!-- Need Help -->
-    <section id="needhelp">
-        <div class="row">
-            <div class="col-lg-4">
-                <h2 class="heading">Need Help?</h2>
-                <p class="text-muted">We want to help yo in the best possible way.</p>
-            </div>
-            <div class="col-lg-8">
-                <form action="" method="get" class="form">
-                    <div class="form">
-                        <label for="name">Enter your name: </label>
-                        <input type="text" name="name" id="name" required>
-                    </div>
-                    <div class="form">
-                        <label for="email">Enter your email: </label>
-                        <input type="email" name="email" id="email" required>
-                    </div>
-                    <div class="form">
-                        <label for="phone">Enter your phone no. : </label>
-                        <input type="text" name="phone" id="phone" required>
-                    </div>
-                    <div class="form">
-                        <label for="message">Enter the message: </label>
-                        <input type="text" name="message" id="message" required>
-                    </div>
-                    <button type="button" class="btn btn-warning btn-n downloadbutton1 rounded-pill px-4">QUICK
-                        INQUIRY</button>
-                </form>
-            </div>
-        </div>
-    </section>
-    <!-- Location -->
-    <section id="location" class="px-5" style="text-align: left;">
-        <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-6">
-                <div>
-                    <h3 style=" font-family: 'Dancing Script', cursive;">Find Our Products Near You</h3>
-                    <button type="button" class="btn btn-warning btn-n downloadbutton1 rounded-pill px-4">VIEW MORE
-                        STORES</button>
-                </div>
-                <div>
-                    <img src="images/Location_1.png" alt="">
-                    <p>Corporate Service Communication</p>
-                </div>
-                <div>
-                    <img src="images/Location_2_original.png" alt="">
-                    <p>Sydney Airport</p>
-                </div>
-                <div>
-                    <img src="images/Location_3_original.png" alt="">
-                    <p>Goulburn River National Park</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-6">
-                    <img src="images/Background-copy-6.png" alt="" style="border-radius: 100%;">
-                    <p>Corporate Service Communication</p>
-                    <p>12 Dransfield Ave, Mascot NSW 2020, Australia</p>
-            </div>
-    </section>
-    <!-- Footer -->
-    <Footer>
-        <img src="images/Saurbhi_logo.png" alt="">
-        <p style="color: #933638;">Copyright © 2020. All Rights Reserved.</p>
-    </Footer>
